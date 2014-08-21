@@ -20,7 +20,7 @@
 			E-mail:<br>
 			<input type="text" name="email" placeholder="your email "><br>
 			Message:<br>
-			<input type="text" name="msg" placeholder="your message " size="150"><br><br>
+			<input type="text" name="msg" placeholder="your message " size="50"><br><br>
 			<input type="submit" value="Send">
 			<input type="reset" value="Reset">
 			</form><a href="index.html"><br>Home</a>
