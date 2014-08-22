@@ -7,12 +7,14 @@ p {	color: red;
 	text-align: center;
 	
 }
-.mydiv{	height: 600px;
-	width: 200px;
-	position: left;
+.mydiv{	height: 250px;
+	width: 600;
+	border:1px solid gray;
+	position: center;
 	background-color: #F0F0F0;
-	text-align: left;
-	padding-left: 20px;
+	text-align: relative;
+	padding-left: 100px;
+	padding-right: 100px;
    
 
 }
