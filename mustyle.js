@@ -10,8 +10,9 @@ var reason = "";
     return false;
   }
 
-  //alert("Form submitted!!!\n");
-  return false;
+  alert("Form submitted!!!\n");
+  window.location = "receiveMail.php";
+  return true;
 }
 
 function validateEmpty(fld) {
@@ -19,7 +20,7 @@ function validateEmpty(fld) {
  
     if (fld.value.length == 0) {
         fld.style.background = 'red'; 
-        error = "The required field has not been filled in.\n"
+        error = "You need to write the message/comment.\n"
     } else {
         fld.style.background = 'White';
     }
